@@ -1,17 +1,37 @@
 //variables
-//console.log(dayjs().format());
+var saveBtn = $(".saveBtn");
+var timeBlockEl = $(".time-block");
+var currentDay = $("#currentDay");
 
-//variable for current hour
+//display current date/time
+$(function(){
+    var today = dayjs().format("MMMM D, YYYY, h:mm");
+    //console.log(today);
+    currentDay.append(today);
 
-//Set Data attributes to each hour
+//console.log(currnetDay);
 
 //jQuery
 
-//Change rou color to reflet current hour
+//Change row color to reflet current hour, past and future
+function changeColor(){
+
+    var now = dayjs().hour();
+    console.log("It is" + now + "hour");
+
+    $(".time-block").each(function() {
+        
+    })
+}
 
 // save to local storage
-//saveBtn.on("click" function(){
+$(".saveBtn").on("click", function(){
+    var hour = $(this).parent().attr("id");
+    var textarea = $(this). sibling(".schecule").val();
 
-//})
+    localStorage.setItem(hour, textarea);
+})
+    
+    //retrived stored input
+})
 
-//retrived stored input
