@@ -1,18 +1,19 @@
 # Calendar
-#Description
-To create a page where the user is able to generate a random password. Each password is chosen at random and none of them are the same. The  page allows the user to select the length of the password and if the user wants capital, lower, numbers or special characters, then generates a random password with the users selected choices.
+##Description
 
-#Table of Contents
+
+##Table of Contents
 Installation
 Usage
 Credits
 License
 
-#Installation
-There are no steps required to install this. The users open the webpage on A web browser application. 
-#Usage
+##Installation
+There are no steps required to install this. The users open the webpage on A web browser application.
+ 
+##Usage
 
-#Credits
+##Credits
 
 https://www.w3schools.com/bootstrap4/bootstrap_grid_examples.asp
 https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-save
@@ -21,7 +22,7 @@ https://bobbyhadz.com/blog/javascript-remove-class-if-exists#:~:text=To%20remove
 https://stackoverflow.com/questions/12481439/jquery-this-keyword
 https://api.jquery.com/addclass/
 
-#License
+##License
 MIT License
 
 Copyright (c) 2022 liliaungurean
