@@ -19,8 +19,9 @@ var scheduleEl= $(".schedule");
         console.log("It is " + now + " hour");
 
     $(".time-block").each(function() {
-        var timeBlock = parseInt($(this).attr("id").split(".hour"));
-        
+      var timeBlock = $(this).attr("data-hour");
+      console.log(timeBlock);
+
         if (timeBlock < now) {
             $(this).addClass("past");
           }
@@ -33,22 +34,6 @@ var scheduleEl= $(".schedule");
             $(this).removeClass("present");
             $(this).addClass("future");
           }
-
-    //    if (now > calTime) {
-      //     $(this).removeClass("present");
-     //      $(this).removeClass("future");
-     //      $(this).addClass("past");
-     //   } 
-     //   else if (now === calTime){
-     //       $(this).removeClass("past");
-     //       $(this).removeClass("future");
-     //       $(this).addClass("present");
-     //    }
-     //    else if (now < calTime){
-     //       $(this).removeClass("past");
-     //       $(this).removeClass("present");
-     //       $(this).addClass("future");
-      //  }
 
     })
 }
@@ -63,12 +48,13 @@ clearBtn.on('click', function () {
 // save button
     $(saveBtn).on("click", function(){
 
-        var textarea = $(this).siblings(".schecule").val();
+        var textarea = $(this).siblings(".schedule").val();
         var hour = $(this).parent().attr("id");
 
+console.log(textarea);
 
 //save to local storage
-        localStorage.setItem(textarea, hour);
+        localStorage.setItem(hour, textarea);
     })
     
 //retrived stored input
