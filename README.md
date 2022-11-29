@@ -2,7 +2,8 @@
 
 ## Description
 This project was created to help the user keep track of their daily schedule. It allows the user to see the current time and date as soon as they open the page. They are alo presented with time slots from 7AM to 7 PM. The user is then able to add in events at each hour. Once the user saves the input they can refresh the page and the text will pull over from their local storage and display in the time slot that it was intialy put in. The user will also be able to see past time marked in gray, future in green and present in red.  
-
+![initial page](./Assets/initial%20site.jpg)
+![local Storage](./Assets/localStorage.jpg)
 
 
 ## Table of Contents
@@ -11,21 +12,29 @@ Usage
 Credits
 License
 
-##Installation
+## Installation
 There are no steps required to install this. The users open the webpage on A web browser application.
+Just click the link in a browser and it will take you there.
+https://liliaungurean.github.io/Calendar/ 
  
-##Usage
+## Usage
+The user will need to open the link in a web browser. They will be taken to the page. Once there all that the user will have to do is add in their schedule at the coresponding time slot and save. This will save to local storage and the user will not lose the information unless it is taken out or cleared. 
 
-##Credits
+## Credits
 
 https://www.w3schools.com/bootstrap4/bootstrap_grid_examples.asp
+
 https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-save
+
 https://api.jquery.com/each/
+
 https://bobbyhadz.com/blog/javascript-remove-class-if-exists#:~:text=To%20remove%20a%20class%20if,'bg%2Dyellow')%20.
+
 https://stackoverflow.com/questions/12481439/jquery-this-keyword
+
 https://api.jquery.com/addclass/
 
-##License
+## License
 MIT License
 
 Copyright (c) 2022 liliaungurean
