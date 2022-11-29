@@ -1,8 +1,11 @@
 # Calendar
-##Description
+
+## Description
+This project was created to help the user keep track of their daily schedule. It allows the user to see the current time and date as soon as they open the page. They are alo presented with time slots from 7AM to 7 PM. The user is then able to add in events at each hour. Once the user saves the input they can refresh the page and the text will pull over from their local storage and display in the time slot that it was intialy put in. The user will also be able to see past time marked in gray, future in green and present in red.  
 
 
-##Table of Contents
+
+## Table of Contents
 Installation
 Usage
 Credits
